@@ -1,7 +1,7 @@
 
 package servlets;
 
-import domains.Note;
+import models.Note;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;

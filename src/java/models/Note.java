@@ -1,5 +1,5 @@
 
-package domains;
+package models;
 
 import java.io.Serializable;
 
