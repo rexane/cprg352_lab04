@@ -16,14 +16,13 @@
         
         <h2>Edit Note</h2>
         
-        <form method="post" action="edit">
-            <label><b>Title: </b></label>
-            <input type="text" name="title" value="${title}">
-            <br>
-            <label><b>Contents: </b></label>
-            <br>
-            <input type="text" name="contents" value="${contents}">
-            <br>
+        <form method="post" action="note">
+            <label>Title: </label>
+            <input type="text" name="title" value="${note.title}">
+            <br><br>
+            <label>Contents: </label>
+            <input type="text" name="contents" value="${note.contents}">
+            <br><br>
             <input type="submit" value="Save">
         </form>
             
